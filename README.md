@@ -1,10 +1,11 @@
 "# CodeX_GuidewireDocument" 
 
-"#Problem Statement:"
-            The growing digital space in India heavily relies on the services of gig-based delivery staff who work on prominent digital platforms like Zomato, Swiggy, Zepto, Amazon, and Dunzo. The gig-based delivery staff are instrumental in delivering timely services to millions of consumers on a daily basis. Unlike regular salaried employees, the income of gig-based delivery staff is heavily dependent on the weekly or daily income they earn from these platforms. The income of gig-based delivery staff is highly vulnerable to any external factors that may impact their ability to earn a living. However, the situation is that the delivery staff may encounter situations that are beyond their control. Situations like extreme heatwaves, heavy rainfall, flooding, extreme levels of air pollution, sudden curfews, strikes, or closure of markets may impact the delivery staff's ability to work. In such situations, the platforms may suspend services or the delivery staff may be unable to work due to the prevailing conditions. This may result in the loss of 20 to 30% of the income for the gig-based delivery staff.
+## "#Problem Statement:"
+
+The growing digital space in India heavily relies on the services of gig-based delivery staff who work on prominent digital platforms like Zomato, Swiggy, Zepto, Amazon, and Dunzo. The gig-based delivery staff are instrumental in delivering timely services to millions of consumers on a daily basis. Unlike regular salaried employees, the income of gig-based delivery staff is heavily dependent on the weekly or daily income they earn from these platforms. The income of gig-based delivery staff is highly vulnerable to any external factors that may impact their ability to earn a living. However, the situation is that the delivery staff may encounter situations that are beyond their control. Situations like extreme heatwaves, heavy rainfall, flooding, extreme levels of air pollution, sudden curfews, strikes, or closure of markets may impact the delivery staff's ability to work. In such situations, the platforms may suspend services or the delivery staff may be unable to work due to the prevailing conditions. This may result in the loss of 20 to 30% of the income for the gig-based delivery staff.
 
 
-"#Solution:"
+## "#Solution:"
   The solution that is being proposed is an AI-based parametric insurance platform, which will assist gig delivery workers in coping with losses in their income due to factors such as severe weather conditions, pollution, floods, and curfews, among others.
 
 1. User Registration and Authentication
@@ -14,7 +15,7 @@
       Bank Account Information, which will be the same as in the delivery platform for payouts
       In order to ensure an additional layer of security, biometric authentication like fingerprint recognition or face recognition may be used for user login and           other critical transactions on the platform.
 
-#The reason behind the usage of this solution:
+The reason behind the usage of this solution:
 * The reason behind the usage of this solution is to ensure that only authentic gig workers are able to access the insurance system.
 * The usage of the phone number and bank account helps to ensure that the gig worker is genuine and that there is no fraud with respect to his/her identity.
 * The usage of biometric authentication also helps to ensure security and prevent any kind of unauthorized access to any financial transactions.
@@ -71,7 +72,7 @@
    * Some workers also get their consolidated payouts every month from these platforms.
    * This option ensures that the payment of the premium is linked to larger and less frequent payments. 
 
-#The reasons for the application of this solution:
+The reasons for the application of this solution:
 * The gig workers receive their pay at different intervals depending on the platforms on which they work.
 * The variability of the cycles of income provides a platform for the insurance to work based on the cycles of income of the gig workers. This makes the insurance    affordable to the gig workers without any financial burden on their side.
    
@@ -107,7 +108,6 @@ The purpose of using this solution:
         Curfews imposed by the government
       AI models track environmental factors and check whether the thresholds are breached or not.
 
-
    For example, a delivery boy is working in Delhi and is a part of a company such as Zomato. He is not able to work because of the very high levels of air           pollution. Data is collected on the basis of the environment using an API such as the OpenWeatherMap API. Data is analyzed and it is found that the level of       Air Quality Index is more than 300, which is a threshold value. The insurance process is initiated using an AI model, and he is compensated for an amount of       ₹600 until such time that the pollution levels come down to normal.
       
 The need for the solution used:
@@ -115,9 +115,36 @@ The need for the solution used:
 * The capability to use AI enables the system to identify disruptions without human intervention.
 * This ensures that the gig workers are rewarded in a timely and appropriate manner.
 
-   // examples and insuarnace policy should be updated.
+## Parametric Triggers:
+
+ Condition         Threshold                     Compensation 
  
-"#End Users:"
+ Extreme Heat      Temperature > 45°C            ₹600/day     
+ Heavy Rain        Rainfall > 70 mm              ₹600/day     
+ Severe Pollution  AQI > 300                     ₹600/day     
+ Flood Alert       Government alert issued       ₹600/day     
+ Curfew            Official curfew announcement  ₹600/day     
+
+## Why this is used:
+* No claims need to be made by workers
+* Conditions are automatically identified by AI to trigger payments.
+
+## Web or Mobile Application:
+
+The platform is going to be developed as a mobile-first application since the gig workers mainly use smartphones while carrying out their delivery work.
+
+   // insuarnace policy should be updated.
+## AI Models Used
+
+* Random Forest - - Used for classification and risk Prediction.
+* LSTM(Long- Short Term Memory) - Checks for weather, Pollution and Flood Alerts , because it works well with time-series data.
+* Logistic Regression - Used for fraud detection and probability prediction.
+* Isolation Forest - Used for anomoly detection.
+
+## Tech Stack:
+
+ 
+## "#End Users:"
   Primary Users: Gig delivery Workers
   Secondary Users: Platform administrators and insurance providers
 
