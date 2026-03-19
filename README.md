@@ -142,7 +142,62 @@ The platform is going to be developed as a mobile-first application since the gi
 * Isolation Forest - Used for anomoly detection.
 
 ## Tech Stack:
+Frontend Technology Stack:
+  React Native, Flutter Mobile App for Gig Workers
 
+Backend Technology Stack: 
+  Node.js/Spring Boot for API handling and business logic
+
+Database Technology Stack: 
+  MySQL for User, Transaction, and Claim Data
+
+AI/ML Technology Stack:
+  Python, TensorFlow, Scikit-Learn for Risk Prediction and Fraud Detection
+
+API Technology Stack:
+  Weather APIs, Pollution APIs, Traffic APIs
+
+Authentication Technology Stack:
+  Biometric Authentication using Fingerprint/Face ID along with OTP Verification
+
+Location Technology Stack:
+  GPS/Network-based location tracking
+
+Payment Technology Stack:
+  Bank APIs/UPI for Premium Deduction and Payout
+
+## Adversarial Defense & Anti-Spoofing Strategy
+
+To avoid fraud, including GPS spoofing and payout collusions, the system does not solely depend on GPS technology. Instead, it makes use of multiple verification techniques to ensure that only genuine users are paid for their work while fraudsters are denied their pay.
+
+Multi-Source Verification: This involves using GPS, network-based location, and device sensors to prevent spoofing.
+
+Behavior Analysis: The system monitors users' behavior and identifies any anomalies in their work and movement patterns.
+
+Geo-Validation: The system only allows users who are in real disaster zones, as identified by weather and other alerts.
+
+AI-based Anomaly Detection: Isolation Forest is used to detect anomalies and fraud in users' claims and requests.
+
+Device Fingerprinting: This prevents multiple fake users from using the same device to request payments for fake work.
+
+Risk Scoring: Users are scored according to their risk levels, and only those who are at high risk are penalized. This way, genuine users are not affected in any way.
+
+Fraud Ring Detection: This involves detecting users who are in groups and are involved in fraud.
+
+## Persona:
+Name: Suresh Kumar
+Age: 27
+Location: Hyderabad
+Platform: Works with Amazon Delivery
+Experience: 3 years
+Goals:
+* To earn a stable weekly income
+* To support family expenses
+* To avoid loss of income during unexpected situations
+Challenges:
+* Income reduces during rain, heatwaves, or pollution
+* No financial support during emergency situations
+* Uncertain working conditions
  
 ## "#End Users:"
   Primary Users: Gig delivery Workers
