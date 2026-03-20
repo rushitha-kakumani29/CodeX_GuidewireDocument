@@ -216,4 +216,7 @@ Challenges:
   Primary Users: Gig delivery Workers
   Secondary Users: Platform administrators and insurance providers
 
+## Video Explanation 
+  https://drive.google.com/file/d/1c8LkGOKWMpgs8E4fnxCvixEs8xen7C-P/view?usp=drivesdk
+
         
