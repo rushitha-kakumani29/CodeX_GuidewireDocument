@@ -1,11 +1,11 @@
 "# CodeX_GuidewireDocument" 
 
-## "#Problem Statement:"
+## "Problem Statement:"
 
 The growing digital space in India heavily relies on the services of gig-based delivery staff who work on prominent digital platforms like Zomato, Swiggy, Zepto, Amazon, and Dunzo. The gig-based delivery staff are instrumental in delivering timely services to millions of consumers on a daily basis. Unlike regular salaried employees, the income of gig-based delivery staff is heavily dependent on the weekly or daily income they earn from these platforms. The income of gig-based delivery staff is highly vulnerable to any external factors that may impact their ability to earn a living. However, the situation is that the delivery staff may encounter situations that are beyond their control. Situations like extreme heatwaves, heavy rainfall, flooding, extreme levels of air pollution, sudden curfews, strikes, or closure of markets may impact the delivery staff's ability to work. In such situations, the platforms may suspend services or the delivery staff may be unable to work due to the prevailing conditions. This may result in the loss of 20 to 30% of the income for the gig-based delivery staff.
 
 
-## "#Solution:"
+## "Solution:"
   The solution that is being proposed is an AI-based parametric insurance platform, which will assist gig delivery workers in coping with losses in their income due to factors such as severe weather conditions, pollution, floods, and curfews, among others.
 
 1. User Registration and Authentication
@@ -198,8 +198,21 @@ Challenges:
 * Income reduces during rain, heatwaves, or pollution
 * No financial support during emergency situations
 * Uncertain working conditions
+
+## How Our AI Works
+* The system receives information such as weather, pollution, and location from APIs.
+* The AI models (LSTM, Random Forest) analyze the information to make predictions of the risk levels.
+* The system checks if the conditions exceed a certain limit (rain, AQI), and a trigger signal is sent.
+* The system then authenticates the user and sends a ₹600/day payout.
+* The AI system can also detect fraud by using anomaly detection models.
+
+## How It Is Built
+* Collect historical data (weather, pollution).
+* Train models using Python (TensorFlow, Scikit-learn).
+* Test accuracy and improve models.
+* Integrate with backend for real-time predictions.
  
-## "#End Users:"
+## "End Users:"
   Primary Users: Gig delivery Workers
   Secondary Users: Platform administrators and insurance providers
 
